@@ -7,6 +7,19 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+/*             Added classes            */
+
+.paragraphfont {
+	font-size: 0.7em;
+	line-height: 1.5em;
+	font-family: 'Libre Franklin', sans-serif;
+
+}
+
+
+/* --------------------------------------*/
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -102,7 +115,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #ffffff;
 		font-family: "Open Sans", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
@@ -2648,7 +2661,6 @@ input, select, textarea {
 				.features li {
 					padding: 3em 0 1em 0 ;
 					background-color: transparent !important;
-					border-top: solid 2px #fff;
 					width: 100%;
 				}
 
@@ -2677,12 +2689,13 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 0%;
 		}
 
 			.spotlight .image img {
 				border-radius: 0;
-				width: 100%;
+				width: 0%;
+				align: center;
 			}
 
 		.spotlight .content {
@@ -2691,8 +2704,9 @@ input, select, textarea {
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			max-width: 48em;
+			max-width: 100%;
 			width: 60%;
+			align: center;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2703,19 +2717,19 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.spotlight:nth-child(5) {
@@ -2976,7 +2990,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #FFFFFF;
 		}
 
 		.wrapper.style3 {
