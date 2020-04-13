@@ -11,11 +11,13 @@
 /*             Added classes            */
 
 .paragraphfont {
-	font-size: 0.7em;
-	line-height: 1.5em;
+
 	font-family: 'Libre Franklin', sans-serif;
+		margin: 0% 0% 0% 0%;
 
 }
+
+
 
 
 /* --------------------------------------*/
@@ -57,6 +59,7 @@ blockquote, q {
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
+		text-align: center;
 	}
 
 table {
@@ -172,8 +175,12 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		width: 100%;
+		align-items: left;
 	}
+
+
+
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
@@ -316,10 +323,12 @@ input, select, textarea {
 
 		.row.aln-left {
 			justify-content: flex-start;
+					text-align: center;
 		}
 
 		.row.aln-center {
 			justify-content: center;
+					text-align: center;
 		}
 
 		.row.aln-right {
@@ -2091,11 +2100,11 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #000000;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #76ddff;
 		}
 
 		.icon.style3 {
@@ -2699,13 +2708,12 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			padding: 2em 4em 0.1em 4em ;
+			padding: 4em 10em 1em 4em ;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			max-width: 100%;
-			width: 60%;
+			width: 95%;
 			align: center;
 		}
 
@@ -2764,6 +2772,7 @@ input, select, textarea {
 
 			.spotlight .content {
 				width: 55%;
+					text-align: center;
 			}
 
 		}
@@ -2787,6 +2796,7 @@ input, select, textarea {
 					max-width: none;
 					text-align: center;
 					width: 100%;
+					margin-right: 20px;
 				}
 
 		}
@@ -2795,6 +2805,7 @@ input, select, textarea {
 
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
+				text-align: center;
 			}
 
 		}
@@ -2831,8 +2842,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #ffffff;
+			color: #ffffff;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2864,7 +2875,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #000000;
 			}
 
 			.wrapper.style1 label {
